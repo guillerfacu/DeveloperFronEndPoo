@@ -20,7 +20,7 @@ const persona2 ={
 }
 
 /*------------------ Constructor------------- */
-
+/* 
 function Persona(nombre, edad, calle){
     this.nombre = nombre;
     this.edad = edad;
@@ -34,4 +34,25 @@ const persona4 = new Persona("Bart", 10, "Av. SiempreViva 742");
 console.log(persona3.nombre);
 console.log(persona3.edad);
 console.log(persona3.calle);
-persona3.hablar();
+persona3.hablar(); */
+
+class Persona{
+    constructor(nombre, edad, calle){
+        this.nombre = nombre;
+        this.edad = edad;
+        this.calle = calle;
+    }
+
+    hablar(){
+        console.log("Hola soy "+ this.nombre)
+    }
+    
+}
+const persona6 = new Persona ("Bart", 13,"Av. Siempreviva 742");
+for (const i in persona6){
+    console.log(persona6[i]);
+
+}
+persona6.hablar();
+
+
