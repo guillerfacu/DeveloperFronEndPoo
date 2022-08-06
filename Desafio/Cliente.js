@@ -16,8 +16,8 @@ class Cliente{
         return this.apellido;
     }
 
-    botonInicio(){
-        console.log("Buenos Dias, "+this.getNombre() + "  ha presionado boton inicio ingrese sus envases..");
+    setId(i ){
+        this.id = i;
     }
     botonImprimit(){
         console.log("Ha presionado imprimir, Imprimiendo su tiket...");
