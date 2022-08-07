@@ -1,4 +1,4 @@
-class Cliente{
+const Cliente = class Cliente{
     constructor(id, nombre, apellido){
         this.id = id;
         this.nombre = nombre;
@@ -31,3 +31,4 @@ class Cliente{
     }
 
 }
+module.exports = Cliente;

@@ -1,4 +1,5 @@
-class Envase{
+
+const Envase  = class Envase{
     constructor(tipo , capacidad, diametro, material, valorDevolucionXun){
         this.tipo = tipo;
         this.capacidad = capacidad;
@@ -48,5 +49,5 @@ class Envase{
         console.log("Valor: $ "+ this.getValor());
         console.log("--------------------------------------");
     }
-
 }
+module.exports = Envase;

@@ -1,4 +1,4 @@
-class Recibo{
+const Recibo = class Recibo{
     constructor(cliente, arrayEnvases){
       tthis.cliente = cliente;
       this.arrayEnvases = arrayEnvases;
@@ -16,3 +16,4 @@ class Recibo{
 
     
 }
+module.exports = Recibo;
